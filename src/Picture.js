@@ -6,7 +6,7 @@ export default class Picture extends Component {
     render() {
         return(
             <div className="profile">
-                <img className="profile-pic" src={profile} />
+                <img className="fadeInLeft animate profile-pic" src={profile} />
             </div>
         )
     }
