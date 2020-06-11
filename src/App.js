@@ -1,5 +1,5 @@
 import React from 'react';
-import Picture from './Picture.js';
+import Profile from './Profile.js';
 import Banner from './Banner.js';
 import './main.css';
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <Banner />
-      <Picture />
+      <Profile />
     </div>
   );
 }
