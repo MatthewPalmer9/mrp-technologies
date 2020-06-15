@@ -10,7 +10,7 @@ export default class Header extends Component {
                 <a href="/" className="mr-5 hover:text-gray-900">Home</a>
                 <a href="https://matthewpalmer9.github.io/" className="mr-5 hover:text-gray-900">Blog</a>
                 <a href="https://github.com/MatthewPalmer9" className="mr-5 hover:text-gray-900">Github</a>
-                <a href="#" className="hover:text-gray-900">Projects (Coming Soon!)</a>
+                <a href="#" className="hover:text-gray-900">Projects</a>
                 </nav>
                 <a className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
                 {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
