@@ -1,12 +1,13 @@
 import React from 'react';
-import Profile from './Profile.js';
-import Banner from './Banner.js';
-import './main.css';
+import Header from './Header.js'
+import Profile from './Profile.js'
+import './tailwind.generated.css';
+import './main.css'
 
 function App() {
   return (
     <div>
-      <Banner />
+      <Header />
       <Profile />
     </div>
   );
