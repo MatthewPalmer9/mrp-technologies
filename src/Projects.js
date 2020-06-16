@@ -18,10 +18,10 @@ export default class Projects extends Component {
                         <div className="flex flex-wrap -m-4">
                         <div className="xl:w-1/4 md:w-1/2 p-4">
                             <div className="projectBox bg-gray-100 p-6 rounded-lg">
-                                <a href="#"><img className="h-40 rounded w-full object-cover object-center mb-6" src={TheGentleman} alt="content"></img></a>
+                                <a href="https://the-gentleman.vercel.app/"><img className="h-40 rounded w-full object-cover object-center mb-6" src={TheGentleman} alt="content"></img></a>
                                 <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">LANDING PAGE</h3>
-                                <h2 className="text-lg text-gray-900 font-medium title-font mb-4"><a href="#">The Gentleman (Coming Soon)</a></h2>
-                                <p className="leading-relaxed text-base">lorem ipsum</p>
+                                <h2 className="text-lg text-gray-900 font-medium title-font mb-4"><a href="https://the-gentleman.vercel.app/">The Gentleman</a></h2>
+                                <p className="leading-relaxed text-base"><em>Created by gentlemen, for gentleman.</em> A static front end React UI landing page.</p>
                             </div>
                         </div>
                         <div className="xl:w-1/4 md:w-1/2 p-4">
