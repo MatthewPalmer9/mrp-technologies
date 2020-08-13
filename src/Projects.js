@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import ComingSoon from './ComingSoon.jpg'
-import TheGentleman from './thegentleman.jpg'
+import ComingSoon from './ComingSoon.jpg';
+import TheGentleman from './thegentleman.jpg';
+import Bowlicious from './bowlicious.png';
 
 export default class Projects extends Component {
     render() {
@@ -18,18 +19,18 @@ export default class Projects extends Component {
                         <div className="flex flex-wrap -m-4">
                         <div className="xl:w-1/4 md:w-1/2 p-4">
                             <div className="projectBox bg-gray-100 p-6 rounded-lg">
-                                <a href="https://the-gentleman.vercel.app/"><img className="h-40 rounded w-full object-cover object-center mb-6" src={TheGentleman} alt="content"></img></a>
+                                <a target="_blank" href="https://the-gentleman.vercel.app/"><img className="h-40 rounded w-full object-cover object-center mb-6" src={TheGentleman} alt="content"></img></a>
                                 <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">LANDING PAGE</h3>
-                                <h2 className="text-lg text-gray-900 font-medium title-font mb-4"><a href="https://the-gentleman.vercel.app/">The Gentleman</a></h2>
+                                <h2 className="text-lg text-gray-900 font-medium title-font mb-4"><a target="_blank" href="https://the-gentleman.vercel.app/">The Gentleman</a></h2>
                                 <p className="leading-relaxed text-base"><em>Created by gentlemen, for gentleman.</em> A static front end React UI landing page.</p>
                             </div>
                         </div>
                         <div className="xl:w-1/4 md:w-1/2 p-4">
                             <div className="projectBox bg-gray-100 p-6 rounded-lg">
-                                <img className="h-40 rounded w-full object-cover object-center mb-6" src={ComingSoon} alt="content"></img>
-                                <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">TYPE</h3>
-                                <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Coming Soon</h2>
-                                <p className="leading-relaxed text-base">lorem ipsum</p>
+                                <a target="_blank" href="https://bowliciousbowtique.vercel.app/"><img className="h-40 rounded w-full object-cover object-center mb-6" src={Bowlicious} alt="content"></img></a>
+                                <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">eCommerce</h3>
+                                <h2 className="text-lg text-gray-900 font-medium title-font mb-4"><a target="_blank" href="https://bowliciousbowtique.vercel.app/">Bowlicious Bowtique</a></h2>
+                                <p className="leading-relaxed text-base">Created with React/Redux using Ruby on Rails as a backend API.</p>
                             </div>
                         </div>
                         <div className="xl:w-1/4 md:w-1/2 p-4">

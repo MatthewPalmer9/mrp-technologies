@@ -10,9 +10,9 @@ function App() {
   return (
     <div>
       <Header />
+      <Projects />
       <Profile />
       <Skills />
-      <Projects />
     </div>
   );
 }
