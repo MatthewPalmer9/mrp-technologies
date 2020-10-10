@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import resume from './mattpdev-resume.pdf';
+import resume from './mattpdev-resume.docx';
 
 export default class Header extends Component {
     render() {
